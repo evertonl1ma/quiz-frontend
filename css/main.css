@@ -1,0 +1,98 @@
+        body {
+			font-family: 'Roboto', sans-serif;
+			
+		}
+
+		.grid {
+			width: 100%;
+		}
+
+		 .content {
+		 	width: 70%;
+		 	margin-right: auto;
+		 	margin-left: auto;
+		 	background: #FFF;
+		 	padding: 25px;
+		 }
+
+		.title {
+			font-size: 2.7em;
+			color: #e74c3c;
+		}
+
+		.title-congrats {
+			font-size: 3em;
+			color: #e74c3c;
+		}
+
+		.question,
+		.progress,
+		.score {
+			color: #34495e;
+		}
+
+		.score {
+			font-size: 2.2em;
+		}
+
+		.answer {
+		 	margin-top: 0;
+		 	color: #95a5a6;
+		 	font-size: 1.5em;
+		 }
+
+		 .btn {
+		 	padding: 10px;
+		 	color: #FFF;
+		 	box-shadow: 0px 0px 5px silver;
+		 	float: left;
+		 	cursor: pointer;
+		 }
+
+
+		 .btn-choice {
+		 	margin-right: 10px;
+		 	background: #52BAB3;
+		 	border: 2px solid #52BAB3;
+		 }
+
+
+		 .btn-reload {
+		 	width: 200px;
+		 	margin-right: auto;
+		 	margin-left: auto;
+		 	background: #e74c3c;
+		 	border: 2px solid #e74c3c;
+		 	text-align: center;
+		}
+
+@media (max-width: 700px) {
+	.title {
+		font-size: 2em;
+	}
+
+	.title-congrats {
+		font-size: 2.1em;
+	}
+
+	.question {
+		font-size: 1.1em;
+	}
+
+	.score {
+		font-size: 1.5em;
+	}
+
+	.answer {
+		font-size: 1em;
+	}
+
+	.btn {
+		padding: 5px;
+		font-size: 0.8em;
+	}
+
+	.btn-reload {
+		width: 100px;
+	}
+}
