@@ -41,6 +41,10 @@
 		 	font-size: 1.5em;
 		 }
 
+		 hr {
+		 	border-color: #ecf0f1;
+		 }
+
 		 .btn {
 		 	padding: 10px;
 		 	color: #FFF;
